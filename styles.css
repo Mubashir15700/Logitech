@@ -149,7 +149,8 @@ body {
 }
 
 .main-div4 {
-    padding: 13px 100px 0px;
+    padding: 13px 100px 200px;
+    display: flex;
 }
 
 #main-div4-sub-div-keyboard {
@@ -157,35 +158,30 @@ body {
     width: 720px;
     background-image: url('./assets/image5.png');
     background-repeat: no-repeat;
-    background-size: auto;
     background-size: cover;
 }
 
-#main-div4-sub-div-lap {
-    height: 350px;
+#main-div4-sub-div-mob {
+    height: 190px;
     width: 350px;
     background-image: url('./assets/image7.png');
     background-repeat: no-repeat;
-    background-size: auto;
-    background-size: contain;
 }
 
 #main-div4-sub-div-headset {
-    height: 350px;
+    height: 190px;
     width: 350px;
     background-image: url('./assets/image8.png');
     background-repeat: no-repeat;
-    background-size: auto;
-    background-size: contain;
 }
 
-#main-div4-sub-div-speaker {
-    height: 630px;
+#main-div4-sub-div-video {
+    text-align: center;
     width: 400px;
     background-image: url('./assets/image6.png');
     background-repeat: no-repeat;
     background-size: auto;
-    background-size: 400px 650px;
+    padding-top: 550px;
 }
 
 .main-div5 {
@@ -221,7 +217,9 @@ body {
 
 .main-div5-nav-btn {
     height: 50px;
-    margin-top: 270px;
+    position: relative;
+    top: 40%;
+    font-size: 80px;
     cursor: pointer;
 }
 
@@ -272,10 +270,10 @@ body {
 }
 
 #inp-text {
-    height: 40px;
+    height: 43px;
     width: 350px;
     padding-left: 20px;
-    outline: none;
+    border: none;
 }
 
 #inp-btn {
@@ -300,6 +298,10 @@ body {
     cursor: pointer;
 }
 
+#chk-para u:hover {
+    text-decoration: none;
+}
+
 .main-div7 ul {
     display: flex;
 }
@@ -310,6 +312,12 @@ body {
     margin-right: 20px;
     font-size: 14px;
     cursor: pointer;
+}
+
+.li-span {
+    height: 20px; 
+    border-left: 1px solid #c3c6c8; 
+    margin-left: 15px;
 }
 
 .main-div7-globe-link {
