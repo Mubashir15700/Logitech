@@ -151,6 +151,7 @@ body {
 .main-div4 {
     padding: 13px 100px 200px;
     display: flex;
+    justify-content: center;
 }
 
 #main-div4-sub-div-keyboard {
@@ -274,6 +275,10 @@ body {
     width: 350px;
     padding-left: 20px;
     border: none;
+}
+
+#inp-text:focus {
+    outline: none;
 }
 
 #inp-btn {
